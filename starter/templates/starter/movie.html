@@ -3,10 +3,12 @@
 {% load static %}
 {% load staticfiles %}
 {% load bootstrap3 %}
+{% for movie in js.movies %}
+        {% if movie.id == movie_id %}
 <html>
   <head>
     <title>
-      Movie Details
+      Movie Details - {{ movie.title }}
     </title>
      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="{% static "js/materialize.js" %}"></script>
@@ -19,17 +21,16 @@
   </head>
 
   <body>
+
     <div class="navbar-fixed">
     <nav id="nav_f" class="default_color" role="navigation">
         <div class="container">
-            <div class="nav-wrapper"><a id="logo-container" href="#top" class="brand-logo">Rotten Tomatoes on Material Design : Movie Details</a>
+            <div class="nav-wrapper"><a id="logo-container" href="#top" class="brand-logo">Movie Details - {{ movie.title }}</a>
             </div>
         </div>
     </nav>
 </div>
-{% for movie in js.movies %}
-        {% if movie.id == movie_id %}
-<!--Intro and service- <span class="span_h2"> Phasellus  </span> -->
+
 <div class="parallax-container">
     <div class="parallax"><img src="{{ movie.posters.original }}"></div>
   </div>
