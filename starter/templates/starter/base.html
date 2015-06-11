@@ -25,11 +25,11 @@
   
   <body>
 <!--Navigation-->
- <div class="navbar-fixed">
+<div class="navbar-fixed">
     <nav id="nav_f" class="default_color" role="navigation">
-        <div class="container">
-            <div class="nav-wrapper"><a id="logo-container" href="#top" class="brand-logo">Rotten Tomatoes on Material Design</a>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        <div class="nav-wrapper">
+            <a href="#"><i class="brand-logo large mdi-action-home"></i>
+            <div class="container"><a id="logo-container" href="#top" class="brand-text">Rotten Tomatoes in Material Design</a>
             </div>
         </div>
     </nav>
@@ -38,8 +38,17 @@
     <div class="parallax"><img src="{% static "img/Rotten-Tomatoes.jpg" %}"></div>
 </div>
 <div >
-  <label for="tags">Tags: </label>
-  <input id="tags">
+<nav>
+    <div class="nav-wrapper">
+      <form>
+        <div class="input-field">
+          <input id="tags" type="search" required>
+          <label for="search"><i class="mdi-action-search"></i></label>
+          <i class="mdi-navigation-close"></i>
+        </div>
+      </form>
+    </div>
+</nav>
 </div>
 <div class="section scrollspy" id="work">
     <div class="container">
@@ -53,7 +62,7 @@
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">{{ movie.title }}<i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href='/get/{{ movie.id }}/'>Runtime: {{ movie.runtime }} minutes</a></p>
+                        <p><a href='/get/{{ movie.id }}/'>More Details</a></p>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Syopsis<i class="mdi-navigation-close right"></i></span>
