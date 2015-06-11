@@ -17,9 +17,10 @@
     <script src="{% static "js/ajax.js" %}"></script>
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/jquery.autocomplete.min.js"></script>
     <script>
         $(function() {var availableTags = ["Child's Pose","Pompeii","3 Days To Kill","In Secret","Barefoot","Omar","Non-Stop","Son Of God","The Wind Rises","Welcome to Yesterday","Stalingrad","Repentance","The Lunchbox"];
-        $( "#tags" ).autocomplete({source: availableTags});});
+        $( "#search" ).autocomplete({source: availableTags});});
     </script>
   </head>
   
@@ -29,13 +30,25 @@
     <nav id="nav_f" class="default_color" role="navigation">
         <div class="nav-wrapper">
             <a href="#"><i class="brand-logo large mdi-action-home"></i>
-            <div class="container"><a id="logo-container" href="#top" class="brand-text">Rotten Tomatoes in Material Design</a></div>
+            <div class="container"><a id="logo-container" href="#top" class="brand-text">Rotten Tomatoes in Material Design</a>
+            </div>
+            
         </div>
     </nav>
 </div>
 <div class="parallax-container">
     <div class="parallax"><img src="{% static "img/Rotten-Tomatoes.jpg" %}"></div>
 </div>
+    <nav>
+          <div class="nav-wrapper">
+            <form>
+              <div class="input-field teal">
+                <input id="search" type="search" required>
+                <label for="search"><i class="mdi-action-search"></i></label>
+              </div>
+            </form>
+          </div>
+        </nav>
 <div class="section scrollspy" id="work">
     <div class="container">
         <h2 class="header text_b">List of Movies</h2>
