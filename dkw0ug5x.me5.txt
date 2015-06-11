@@ -1,0 +1,80 @@
+﻿Merge branch 'master' of https://github.com/rkgudboy/rotten_tomatoes
+
+Conflicts:
+	.gitignore
+	README.md
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 14 and 14 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	new file:   .gitattributes
+#	modified:   .gitignore
+#	modified:   README.md
+#	new file:   __init__.py
+#	new file:   __pycache__/__init__.cpython-34.pyc
+#	new file:   __pycache__/settings.cpython-34.pyc
+#	new file:   __pycache__/urls.cpython-34.pyc
+#	new file:   __pycache__/views.cpython-34.pyc
+#	new file:   __pycache__/wsgi.cpython-34.pyc
+#	new file:   data/movies.json
+#	new file:   settings.py
+#	new file:   static/css/font-awesome.min.css
+#	new file:   static/css/materialize.css
+#	new file:   static/css/materialize.min.css
+#	new file:   static/css/modernizr.js
+#	new file:   static/css/style.css
+#	new file:   static/font/material-design-icons/LICENSE.txt
+#	new file:   static/font/material-design-icons/Material-Design-Icons.eot
+#	new file:   static/font/material-design-icons/Material-Design-Icons.svg
+#	new file:   static/font/material-design-icons/Material-Design-Icons.ttf
+#	new file:   static/font/material-design-icons/Material-Design-Icons.woff
+#	new file:   static/font/roboto/Roboto-Bold.ttf
+#	new file:   static/font/roboto/Roboto-Light.ttf
+#	new file:   static/font/roboto/Roboto-Medium.ttf
+#	new file:   static/font/roboto/Roboto-Regular.ttf
+#	new file:   static/font/roboto/Roboto-Thin.ttf
+#	new file:   static/fonts/FontAwesome.otf
+#	new file:   static/fonts/fontawesome-webfont.eot
+#	new file:   static/fonts/fontawesome-webfont.svg
+#	new file:   static/fonts/fontawesome-webfont.ttf
+#	new file:   static/fonts/fontawesome-webfont.woff
+#	new file:   static/img/Rotten-Tomatoes.jpg
+#	new file:   static/js/ajax.js
+#	new file:   static/js/init.js
+#	new file:   static/js/materialize.js
+#	new file:   static/js/materialize.min.js
+#	new file:   static/js/modernizr.js
+#	new file:   templates/starter/base.html
+#	new file:   templates/starter/landing_page.html
+#	new file:   templates/starter/movie.html
+#	new file:   templates/starter/movie_search.html
+#	new file:   templates/starter/movies.html
+#	new file:   urls.py
+#	new file:   views.py
+#	new file:   wsgi.py
+#
+# Untracked files:
+#	starter/.gitattributes
+#	starter/.gitignore
+#	starter/README.md
+#	starter/static/
+#	starter/templates/starter/movie.html
+#	starter/templates/starter/movie_search.html
+#	starter/templates/starter/movies.html
+#	tomato.db
+#	tomatoes/
+#
+
